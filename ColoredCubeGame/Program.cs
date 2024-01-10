@@ -13,23 +13,14 @@ namespace ColoredCubeGame
             try
             {            
                 string[] lines = File.ReadAllLines(filePath);
-                int i = 0;
                 int sum = 0;
                 foreach (string line in lines)
                 {
-                    Console.ForegroundColor = ConsoleColor.White;
-                    i++;                    
+                    Console.ForegroundColor = ConsoleColor.White;                 
                     string[] game = GetGame(line);
-                    System.Console.Write(line);                   
-                    if(isGameLegal(game)){
-                        sum+=i;
-                        Console.ForegroundColor = ConsoleColor.Green;   
-                        System.Console.WriteLine(" Legal");                   
-                    }
-                    else{
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        System.Console.WriteLine(" ILegal");
-                    }                        
+                    int power = getPower(game); 
+                    System.Console.WriteLine($"{line}, \npower:{power}");                   
+                    sum+=power;
                 }
                 Console.ForegroundColor = ConsoleColor.Blue;
                 System.Console.WriteLine($"The sum is {sum}");
@@ -40,6 +31,7 @@ namespace ColoredCubeGame
             }
         }
 
+        // Gets the game from each line as a string arry, each node represent a round
         public static string[] GetGame(string line)
         {
             return line.Split(':')[1].Split(";");
@@ -81,5 +73,35 @@ namespace ColoredCubeGame
                     number += ch;
             return int.Parse(number);    
         }
+
+        public static int getPower(string[] game)
+        {
+            int[] currentMin = new int[] { 0, 0, 0 };
+            foreach (string round in game)
+            {
+                int[] mins = getNumFromRound(round);
+                for (int i = 0; i < 3; i++)                
+                    if (currentMin[i] < mins[i])
+                        currentMin[i] = mins[i];                
+            }
+            return currentMin[0]*currentMin[1]*currentMin[2];
+        }
+        public static int[] getNumFromRound(string round)
+        {
+            string[] cubes = round.Split(',');
+            int green = 0, red = 0, blue = 0;            
+            foreach (string cube in cubes)
+            {
+                if (cube.Contains("green"))
+                    green += getNumberFrom(cube);
+                else if (cube.Contains("red"))
+                    red += getNumberFrom(cube);
+                else if (cube.Contains("blue"))
+                    blue += getNumberFrom(cube);
+            }
+            return new int[] { red, green, blue };
+        }
+
+        
     }
 }
