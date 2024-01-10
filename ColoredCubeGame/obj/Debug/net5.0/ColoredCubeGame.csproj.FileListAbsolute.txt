@@ -1,0 +1,16 @@
+C:\Users\USER\Desktop\Advents\DayTwo2023\ColoredCubeGame\obj\Debug\net5.0\ColoredCubeGame.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Advents\DayTwo2023\ColoredCubeGame\obj\Debug\net5.0\ColoredCubeGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Advents\DayTwo2023\ColoredCubeGame\obj\Debug\net5.0\ColoredCubeGame.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Advents\DayTwo2023\ColoredCubeGame\obj\Debug\net5.0\ColoredCubeGame.AssemblyInfo.cs
+C:\Users\USER\Desktop\Advents\DayTwo2023\ColoredCubeGame\obj\Debug\net5.0\ColoredCubeGame.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Advents\DayTwo2023\ColoredCubeGame\bin\Debug\net5.0\ColoredCubeGame.exe
+C:\Users\USER\Desktop\Advents\DayTwo2023\ColoredCubeGame\bin\Debug\net5.0\ColoredCubeGame.deps.json
+C:\Users\USER\Desktop\Advents\DayTwo2023\ColoredCubeGame\bin\Debug\net5.0\ColoredCubeGame.runtimeconfig.json
+C:\Users\USER\Desktop\Advents\DayTwo2023\ColoredCubeGame\bin\Debug\net5.0\ColoredCubeGame.runtimeconfig.dev.json
+C:\Users\USER\Desktop\Advents\DayTwo2023\ColoredCubeGame\bin\Debug\net5.0\ColoredCubeGame.dll
+C:\Users\USER\Desktop\Advents\DayTwo2023\ColoredCubeGame\bin\Debug\net5.0\ref\ColoredCubeGame.dll
+C:\Users\USER\Desktop\Advents\DayTwo2023\ColoredCubeGame\bin\Debug\net5.0\ColoredCubeGame.pdb
+C:\Users\USER\Desktop\Advents\DayTwo2023\ColoredCubeGame\obj\Debug\net5.0\ColoredCubeGame.dll
+C:\Users\USER\Desktop\Advents\DayTwo2023\ColoredCubeGame\obj\Debug\net5.0\ref\ColoredCubeGame.dll
+C:\Users\USER\Desktop\Advents\DayTwo2023\ColoredCubeGame\obj\Debug\net5.0\ColoredCubeGame.pdb
+C:\Users\USER\Desktop\Advents\DayTwo2023\ColoredCubeGame\obj\Debug\net5.0\ColoredCubeGame.genruntimeconfig.cache
