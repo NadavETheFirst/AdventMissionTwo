@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\Advents\\DayTwo2023\\ColoredCubeGame\\ColoredCubeGame.csproj": {}
+    "C:\\Users\\USER\\Desktop\\Advents\\AdventDayTwo2023\\AdventMissionTwo\\ColoredCubeGame\\ColoredCubeGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\Advents\\DayTwo2023\\ColoredCubeGame\\ColoredCubeGame.csproj": {
+    "C:\\Users\\USER\\Desktop\\Advents\\AdventDayTwo2023\\AdventMissionTwo\\ColoredCubeGame\\ColoredCubeGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\Advents\\DayTwo2023\\ColoredCubeGame\\ColoredCubeGame.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\Advents\\AdventDayTwo2023\\AdventMissionTwo\\ColoredCubeGame\\ColoredCubeGame.csproj",
         "projectName": "ColoredCubeGame",
-        "projectPath": "C:\\Users\\USER\\Desktop\\Advents\\DayTwo2023\\ColoredCubeGame\\ColoredCubeGame.csproj",
+        "projectPath": "C:\\Users\\USER\\Desktop\\Advents\\AdventDayTwo2023\\AdventMissionTwo\\ColoredCubeGame\\ColoredCubeGame.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\Advents\\DayTwo2023\\ColoredCubeGame\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\Advents\\AdventDayTwo2023\\AdventMissionTwo\\ColoredCubeGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -45,6 +45,7 @@ namespace ColoredCubeGame
             return line.Split(':')[1].Split(";");
         }
 
+        // Determine if every round in a given game is legal
         public static bool isGameLegal(string[] game)
         {
             foreach(string round in game){
@@ -54,6 +55,7 @@ namespace ColoredCubeGame
             return true;
         }
 
+        // Used to determine whether aa round is legal or not - no more then 12 red 13 green and 14 blue 
         public static bool isRoundLegal(string round)
         {
             string[] cubes = round.Split(',');
@@ -69,6 +71,8 @@ namespace ColoredCubeGame
             }
             return red < 13 && green < 14 && blue < 15;
         }
+
+        // Gets the number of cubes taken out 
         public static int getNumberFrom(string round)
         {
             string number = "";
